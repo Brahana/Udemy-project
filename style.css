@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+
+    font-family: "Gabarito", sans-serif;
+}
+
+.container{
+    display:flex;
+    padding:10px;
+    justify-content: space-between;
+    border-bottom:solid black 1px;
+    gap:10px;
+    align-items: center;
+}
+
+.one__title{
+ color:#A435F0;
+}
+
+.two{
+    border: solid 1px black;
+    padding:10px;
+    border-radius: 30px;
+    width:65%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.two input{
+    font-size:15px;
+    border:none;
+    width:100%;
+}
+
+.two input:focus{
+   outline:none;
+    width:100%;
+}
+
+.three{
+    display: flex;
+    gap:10px;
+    /* height:30px; */
+    align-items: center;
+}
+
+
+/* Section category */
+.section-category{
+
+    display:flex;
+    justify-content: space-around;
+    padding:15px;
+    border-bottom: solid black 1px;
+}
+.section-category p{
+
+    background-color: #A435F0;
+    padding:10px;
+    border-radius: 30px;
+}
+
+.page-pic img{
+    width:100%;
+}
+
+/* Section category */
+
+.recommended{
+    padding:10px;
+ 
+}
+.recommended_title{
+    margin-bottom:10px;
+}
+
+.course-content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+   
+    margin-top:10px;    
+}
+
+.course-content__all{
+    width:200px;
+   
+}
+
+.course-content__all img{
+    width:100%;
+    height:50%;
+
+}
+.topics{
+    padding:20px;
+}
+
+
+.topics_section{
+
+    margin-top:10px;
+   
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    
+}
+
+.topics_section p{
+
+    border:solid gray 2px;
+    padding:10px;
+    flex-grow:1;
+    flex-basis:25%;
+}
+
+.popular{
+
+    padding:20px;
+    margin:10px;
+}
+
+.popular p{
+    margin-top:10px;
+}
+
+.popular_content{
+    margin-top:10px;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* flex-basis:35%; */
+    width:100%;
+}
+.popular_card{
+    width:270px;
+}
+
+.popular_card img{
+ width:100%;
+ height:50%;
+}
+
+.footer{
+    padding:10px;
+    margin:20px;
+    background-color: black;
+    color: white;
+    
+}
+
+.footer_one{
+    display:flex;
+}
+
+.footer_one p{
+    margin:20px;
+}
+
+.footer_two{
+
+    display:flex;
+    justify-content: space-between;
+    margin:20px;
+    align-items: center;
+}
