@@ -82,12 +82,22 @@ body{
     justify-content: space-around;
     padding:15px;
     border-bottom: solid black 1px;
+   
 }
 .section-category p{
 
     background-color: #A435F0;
     padding:10px;
     border-radius: 30px;
+    cursor:pointer;
+    border:solid black 1px;
+}
+
+.section-category p:hover{
+background-color: white;
+transition:1s;
+color:#A435F0;
+border:solid #A435F0 1px;
 }
 .page-pic{
     position:relative
@@ -105,6 +115,23 @@ body{
     left :50px;
     top:200px;
     padding:30px;
+    animation-name:scalechange;
+    animation-duration: 1s;
+    opacity:0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scalechange {
+    0%{
+        transform:scale(0);
+        opacity:0;
+    }
+
+    100%{
+        transform:scale(1);
+        opacity:1;
+    }
+    
 }
 /* Section category */
 
